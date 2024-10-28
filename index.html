@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Brgy. Paiisa</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Barangay Paiisa</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Home</h2>
+            <p>Brgy. Paiisa is a vibrant community located in Tiaong, Quezon. We are dedicated to serving our residents and promoting local culture.</p>
+            <button id="subscribeBtn">Subscribe to Newsletter</button>
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <p>We offer various services to assist our community, including health programs, community events, and more.</p>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Our barangay is committed to community development and fostering a strong sense of belonging among residents.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Brgy. Paiisa, Tiaong, Quezon. All rights reserved.</p>
+    </footer>
+
+    <div id="newsletterPopup" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <h2>Subscribe to our Newsletter</h2>
+            <form id="newsletterForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
